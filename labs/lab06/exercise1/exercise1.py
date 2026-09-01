@@ -1,4 +1,14 @@
-# Escape Characters Exercise
-# Print the receipt shown in the lab, using \n for new lines and \t for columns.
-# Calculate every total, subtotal, and tax in your code. Do not type the money
-# amounts in directly. Show every amount with exactly two decimal places.
+# Exercise 13: Student Card
+
+# Ask for user input
+full_name = input("Enter your full name: ")
+matric_number = input("Enter your matric number: ")
+
+# Process the data
+uppercase_name = full_name.upper()
+name_length = len(full_name)
+
+# Display results
+print(f"Name in uppercase: {uppercase_name}")
+print(f"Number of characters in name: {name_length}")
+print(f"Matric number: {matric_number}")

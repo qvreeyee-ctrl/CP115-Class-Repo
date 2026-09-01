@@ -1,2 +1,8 @@
-print(0.1 + 0.2)
-print(round(3, 2))
+
+student_name = "Your Name"
+student_id = "Your ID"
+course_code = "CP115"
+
+print(student_name)
+print(student_id)
+print(course_code)
