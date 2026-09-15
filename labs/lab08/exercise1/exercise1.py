@@ -1,12 +1,17 @@
-# Stage 3: Complete pass/fail system
-marks = 45  # Try both passing and failing grades
-total_marks = 100
+student_name = input()
+gpa = float(input())
+credit_hours = int(input())
 
-percentage = (marks / total_marks) * 100
-print(f"Student scored: {percentage}%")
+if:
+    gpa >= 3.5 and credit_hours >= 12
 
-# Complete conditional with else
-if percentage >= 60:
-    print("Congratulations! You passed!")
+elif:
+    gpa >= 3.5 and credit_hours >= 12
+  
+elif:
+    gpa >= 2.0
+
 else:
-    print("Sorry, you failed. Better luck next time!")
+    gpa < 2.0
+    
+print(classification)
