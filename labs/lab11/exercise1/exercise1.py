@@ -1,17 +1,20 @@
 speed = int(input())
+
 total_readings = 0
-longest_streak = 0
-streak = 0 
+longest_streak = 0 
+current_speed = 0
 
 while speed >= 0 :
-    total_readings += speed
-    if speed < 20 :
-        streak = speed 
-        streak += speed
-        if speed > streak :
-            longest_streak = streak
+    total_readings += 1
 
-speed = int(input())
+    if speed < 20 :
+        current_speed += 1
+        if current_speed > longest_streak:
+            longest_streak += 1
+    else:
+        current_speed = 0
+    
+    speed = int(input())
 
 print(total_readings)
 print(longest_streak)
